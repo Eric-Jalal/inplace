@@ -1,12 +1,25 @@
-# Eric tools
+### Find & Replace CLI Tool v1.0.0
 
-You probably had some situations too, when you are doing something that can be wrapped into an smaller automation to make it faster safer and less error prune.
-For these situations I most likely use a quicky bash script to do the job. I name them randomly.
+Introducing the Find & Replace CLI Tool which actually works easily. Working with `find` sometimes for easy tasks is overkill :). I made this tool to make my-life easier. Specially when I need to change some text in multiple files in a repo without opening extra editors and such. This utility allows users to search for a specific text string within files of specified formats in the current directory and its subdirectories. Upon finding occurrences, the tool provides an interactive prompt for the user to confirm if they wish to proceed to replace the found text with another string.
 
-Any contribution such as bug fix ask for new tools or criticism are welcome :)
+Key Features:
 
+- Supports multiple file formats.
+- Interactive mode for a guided text replacement process.
+- Command-line flags for streamlined text replacement.
+- Provides a summary report of files checked, files affected, and the paths to affected files.
+- Enhanced error handling for a robust user experience.
 
-## Replator.sh
-Once I change an string which was repeated in multiple files in a directory and it's sub trees. Wrote this shell script to iterate through all the directories and look for the files with the prefix I give and replace the string.
-This is basically same find and replace in your own awsome file editor but I wanted a handy CLI for it. Also there is huge room for this to make it bigger and more capable.I'll keep adding features whenever I have needs/time.
+Usage:
 
+- Interactive Mode: find_replace -i
+- Direct Mode: find_replace -f txt,yml search-for-me replace-it-with-me
+- Installation:
+
+Available for installation via Homebrew: 
+
+    ```
+brew tap Eric-Jalal/tap
+brew install repelit
+
+    ```
