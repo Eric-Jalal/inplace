@@ -12,14 +12,14 @@ Key Features:
 
 Usage:
 
-- Interactive Mode: find_replace -i
-- Direct Mode: find_replace -f txt,yml search-for-me replace-it-with-me
+- Interactive Mode: inplace -i
+- Direct Mode: inplace -f txt,yml search-for-me replace-it-with-me
 - Installation:
 
 Available for installation via Homebrew: 
 
-    ```
+```shell
 brew tap Eric-Jalal/tap
-brew install repelit
+brew install inplace
 
-    ```
+```
