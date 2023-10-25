@@ -18,8 +18,8 @@ Usage:
 
 Available for installation via Homebrew: 
 
-    ```
+```shell
 brew tap Eric-Jalal/tap
 brew install repelit
 
-    ```
+```
