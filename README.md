@@ -12,14 +12,12 @@ Key Features:
 
 Usage:
 
-- Interactive Mode: find_replace -i
-- Direct Mode: find_replace -f txt,yml search-for-me replace-it-with-me
-- Installation:
+- Interactive Mode: repelit -i
+- Direct Mode: repelit -f txt,yml <search-for-me> <replace-it-with-me>
 
-Available for installation via Homebrew: 
+Installation via Homebrew:
 
 ```shell
-brew tap Eric-Jalal/tap
+brew tap eric-jalal/eric-tools-repelit.git
 brew install repelit
-
 ```
