@@ -38,7 +38,7 @@ def find_and_replace(file_formats, search_text, replace_text=None):
                 new_content = file_content.replace(search_text, replace_text if replace_text is not None else '')
                 with open(match, 'w', encoding='utf-8') as file:
                     file.write(new_content)
-            exception Exception as e:
+            except Exception as e:
                 print(f"Error modifying file {match}: {str(e)}")
 
         print("Replacement complete.")
